@@ -19,7 +19,7 @@ nav a  {
 
 body {
   background: rgb(196, 196, 209);
-  background-image: url('Logo_entreprise.png');
+  background-image: url('Logo.png');
 }
 
 @keyframes clignotement {
