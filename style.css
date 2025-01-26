@@ -4,7 +4,7 @@
 */
 
 .logo {
-  width: 200px; /* Ajustez la largeur selon vos besoins */
+  width: 50px; /* Ajustez la largeur selon vos besoins */
   height: auto; /* Maintient les proportions de l'image */
   margin: 20px auto; /* Centre l'image horizontalement et ajoute une marge */
   display: block; /* Centre l'image si le parent a un text-align: center */
@@ -13,10 +13,6 @@
 nav a  {
   margin: 20px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color: blue;font-size: 23px;
 } 
-
-
-
-
 body {
   background: rgb(196, 196, 209);
   background-image: url('Logo_entreprise.png');
@@ -36,11 +32,11 @@ body {
 
     /* Appliquer l'animation à l'image */
     .clignotant {
-        animation: clignoter 1s infinite;
+        animation: clignoter 5s infinite;
 
   
 .logo {
-  animation: clignotement 1s linear infinite; transition: all;width: 400px; height: 400px;width: 400px;
+  animation: clignotement 5s linear infinite; transition: all;width: 200px; height: 200px;width: 200px;
 }
 main ul img {height: 200px;width: 200px;
   
