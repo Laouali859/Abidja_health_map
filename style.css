@@ -36,11 +36,11 @@ body {
 
     /* Appliquer l'animation à l'image */
     .clignotant {
-        animation: clignoter 5s infinite;
+        animation: clignoter 1s infinite;
 
   
 .logo {
-  animation: clignotement 5s linear infinite; transition: all;width: 200px; height: 200px;width: 200px;
+  animation: clignotement 1s linear infinite; transition: all;width: 200px; height: 200px;width: 200px;
 }
 main ul img {height: 200px;width: 200px;
   
