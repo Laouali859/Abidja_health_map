@@ -51,35 +51,6 @@
         background-color: red;
         color: white;
     }
-<style>
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    th, td {
-        border: 1px solid #ddd;
-        text-align: center;
-        padding: 8px;
-    }
-    th {
-        background-color: #f2f2f2;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-    /* Appliquer la couleur uniquement à la colonne "Classe" */
-    .bien-desservi td:nth-child(8) {
-        background-color: green;
-        color: white;
-    }
-    .moyennement-desservi td:nth-child(8) {
-        background-color: yellow;
-        color: black;
-    }
-    .mal-desservi td:nth-child(8) {
-        background-color: red;
-        color: white;
-    }
 </style>
 
 <table>
@@ -90,7 +61,7 @@
             <th>Centre de santé</th>
             <th>Clinic</th>
             <th>Total établissements/commune</th>
-            <th>Densité</th>
+            <th>Population</th> <!-- Changement ici : Densité -> Population -->
             <th>Rapport CS/Pop</th>
             <th>Classe</th>
         </tr>
@@ -102,7 +73,7 @@
             <td>31</td>
             <td>2</td>
             <td>34</td>
-            <td>7186</td>
+            <td>7186</td> <!-- Changement ici : ancienne densité remplacée par population -->
             <td>0,473</td>
             <td>Bien desservie</td>
         </tr>
