@@ -40,7 +40,7 @@ body {
 
   
 .logo {
-  animation: clignotement 1s linear infinite; transition: all;width: 200px; height: 200px;width: 200px;
+  animation: clignotement 1s linear infinite; transition: all;width: 400px; height: 400px;width: 400px;
 }
 main ul img {height: 200px;width: 200px;
   
