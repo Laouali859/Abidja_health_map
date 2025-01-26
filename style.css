@@ -4,7 +4,7 @@
 */
 
 .logo {
-  width: 100px; /* Ajustez la largeur selon vos besoins */
+  width: 200px; /* Ajustez la largeur selon vos besoins */
   height: auto; /* Maintient les proportions de l'image */
   margin: 20px auto; /* Centre l'image horizontalement et ajoute une marge */
   display: block; /* Centre l'image si le parent a un text-align: center */
