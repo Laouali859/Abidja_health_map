@@ -38,16 +38,45 @@
     tr:nth-child(even) {
         background-color: #f9f9f9;
     }
-    /* Définir les couleurs pour chaque niveau de desserte */
-    .bien-desservi td:nth-child(-n+7) {
+    /* Appliquer la couleur uniquement à la colonne "Classe" */
+    .bien-desservi td:nth-child(8) {
         background-color: green;
         color: white;
     }
-    .moyennement-desservi td:nth-child(-n+7) {
+    .moyennement-desservi td:nth-child(8) {
         background-color: yellow;
         color: black;
     }
-    .mal-desservi td:nth-child(-n+7) {
+    .mal-desservi td:nth-child(8) {
+        background-color: red;
+        color: white;
+    }
+<style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        text-align: center;
+        padding: 8px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    /* Appliquer la couleur uniquement à la colonne "Classe" */
+    .bien-desservi td:nth-child(8) {
+        background-color: green;
+        color: white;
+    }
+    .moyennement-desservi td:nth-child(8) {
+        background-color: yellow;
+        color: black;
+    }
+    .mal-desservi td:nth-child(8) {
         background-color: red;
         color: white;
     }
